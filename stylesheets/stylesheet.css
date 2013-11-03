@@ -73,10 +73,10 @@ header {
 
 header h1 {
   letter-spacing: -1px;
-  font-size: 70px;
+  font-size: 75px;
   color: #fff;
   line-height: 1;
-  margin-bottom: 0.2em;
+  margin-bottom: 0.1em;
   width: 540px;
   font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
 }
@@ -88,7 +88,6 @@ header h2 {
   line-height: 1.3;
   width: 540px;
   letter-spacing: 0;
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 header h2 a {
@@ -223,13 +222,14 @@ table {
 }
 
 th {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 td {
   border: 1px solid #ebebeb;
-  text-align: center;
+  text-align: left;
   font-weight: 300;
+  padding: 5px 12px;
 }
 
 form {
@@ -242,7 +242,6 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 2.8em;
   letter-spacing: -1px;
   color: #474747;
@@ -256,9 +255,9 @@ form {
 }
 
 #main-content h2 {
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 22px;
   font-weight: bold;
+  margin-top: 20px;
   margin-bottom: 8px;
   color: #474747;
 }
@@ -270,7 +269,6 @@ form {
 }
 
 #main-content h3 {
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 18px;
   font-weight: bold;
   margin-top: 24px;
@@ -286,7 +284,6 @@ form {
 }
 
 #main-content h4 {
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 15px;
   font-weight: bold;
   color: #474747;
@@ -300,7 +297,6 @@ h4:before {
 }
 
 #main-content h5 {
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 14px;
   color: #474747;
 }
@@ -312,7 +308,6 @@ h5:before {
 }
 
 #main-content h6 {
-  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: .8em;
   color: #474747;
 }
